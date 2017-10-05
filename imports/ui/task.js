@@ -4,9 +4,6 @@ import { Template } from 'meteor/templating';
 import './task.html';
 
 Template.task.helpers({
-  isOwner() {
-    return this.owner === Meteor.userId();
-  },
 });
 
 Template.task.events({
