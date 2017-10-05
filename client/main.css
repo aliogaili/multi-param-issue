@@ -106,6 +106,9 @@ header .hide-completed {
   float: right;
 }
 
+header .mark-all-completed {
+  float: right;
+}
 .toggle-private {
   margin-left: 5px;
 }

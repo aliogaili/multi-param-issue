@@ -36,4 +36,16 @@ Meteor.methods({
   
     Tasks.update(taskId, { $set: { checked: setChecked } });
   },
+
+  'tasks.markCompeleted'(){
+     Tasks.update(
+        { checked: false },
+        {
+          $set: {
+            checked: true,
+          }
+        },
+        { multi: true }
+      );
+  }
 });
