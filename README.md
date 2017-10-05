@@ -1,11 +1,3 @@
-# Simple Todo List
+# multi-param-issue
 
-The Meteor Tutorial app.
-
-Use it to share a single todo list with your friends. The list updates on everyone's screen in real time, and you can make tasks private if you don't want others to see them.
-
-Learn how to build this app by following the [Meteor Tutorial](http://www.meteor.com/install).
-
-Read more about building apps with Meteor in the [Meteor Guide](http://guide.meteor.com).
-
-![screenshot](screenshot.png)
+An attempt to reproduce multi-param issue as reported by [5945](https://github.com/meteor/meteor/issues/5945) and [9177](https://github.com/meteor/meteor/issues/9177)
